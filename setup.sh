@@ -51,7 +51,7 @@ if [ ! -f "${POND_WHALE}" ]; then
   echo "${POND_WHALE}: File not found or is empty"
   exit 1
 fi
-echo "Unpacking Pond Node snapshot"
+echo "Unpacking Pond Whale snapshot"
 tar -xzvf $POND_WHALE -C $LEVELDB_LOC
 rm -rf $POND_WHALE
 
